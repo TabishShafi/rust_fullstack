@@ -1,0 +1,10 @@
+[package]
+name = "rust_backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+dotenv = "0.15.0"
+hyper = "1.5.1"
+tokio = { version = "1.42.0", features = ["full"]}
